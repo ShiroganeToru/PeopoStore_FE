@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         -webkit-text-size-adjust: 100%;
 
-        ${({theme}) => theme.breakpoints.down('md')} {
+        ${({ theme }) => theme.breakpoints.down('md')} {
             -webkit-tap-highlight-color: transparent;
         }
     }

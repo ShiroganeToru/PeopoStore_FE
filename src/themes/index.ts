@@ -9,7 +9,8 @@ export const theme = {
         primary: PRIMARY_COLOR,
         cyan: cyan,
         white: '#fff',
-        textPrimary: 'rgba(0, 0, 0, 0.85)'
+        textPrimary: 'rgba(0, 0, 0, 0.85)',
+        shadowCart: 'rgba(56, 56, 56, 0.06)',
     },
     transition: {
         primary: 'all 0.25s linear'
