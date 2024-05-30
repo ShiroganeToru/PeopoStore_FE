@@ -6,6 +6,6 @@ export const ContainerStyled = styled.div<{$isWide: boolean}>`
     margin: 0 auto;
 
     ${({theme}) => theme.breakpoints.down('xs')} {
-        max-width: calc(100% - 24);
+        max-width: calc(100% - 24px);
     }
 `;
